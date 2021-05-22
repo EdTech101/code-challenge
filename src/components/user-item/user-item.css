@@ -1,0 +1,107 @@
+.user-item {
+  width: 250px;
+  height: 350px;
+  align-self: center;
+  justify-self: center;
+  position: relative;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #BEBEBE;
+  opacity: 1;
+  transition: box-shadow .25s ease-in-out;
+}
+
+.user-item:hover {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 4px #00000041;
+  border: 1px solid #BEBEBE;
+  opacity: 1;
+}
+
+.title {
+  text-align: center;
+  font: normal normal bold 20px/25px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #222222;
+}
+
+.user-button-delete {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  height: 42px;
+  width: 42px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(54, 54, 54, 0.62);
+  font-size: 1.3em;
+  color: #FFFFFF;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.header {
+  background-image: url('../../assets/img/card-background.png');
+  background-position: top;
+  background-origin: border-box;
+  height: 100px;
+  font-size: 20px;
+}
+
+.thumbnail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(40px);
+}
+
+.thumbnail>img {
+  border: 1px solid #BEBEBE;
+  border-radius: 50%;
+  padding: 8px;
+  background-color: white;
+  transform: translateY(-5px);
+  height: 104px;
+  width: 104px;
+}
+
+.content {
+  /* safe-zone */
+  height: 165px;
+  margin-top: 20px;
+  padding: 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.content>div {
+
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content>div>span {
+  font-family: Helvetica Regular;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #6E6E6E;
+}
+
+.user-button-connect {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 2px solid #006097;
+  border-radius: 6px;
+  font: normal normal bold 16px/19px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #006097;
+  padding: 12px 47px;
+  transition: all .6s ease-in-out;
+  cursor: pointer;
+}
+
+.user-button-connect:hover {
+  background: #00609731 0% 0% no-repeat padding-box;
+}
